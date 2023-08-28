@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os  
 from time import  sleep
+from colorama import init, Fore, Style
+init()
 logo = """
 '##::: ##::'######:::'########:::'#######::'##:::'# #:
  ###:: ##:'##... ##:: ##.... ##:'##.... ##: ##::'##::
@@ -11,7 +13,7 @@ logo = """
  ##::. ##:. ######::: ##:::. ##:. #######:: ##::. ##:
 ..::::..:::......::::..::::::..:::.......:::..::::. .::
     \n"""
-print(logo)    
+print(Fore.YELLOW+logo)    
 presentation = """
      Created  by:  1LugarParaProgramar
 
